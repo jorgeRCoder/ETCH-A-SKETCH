@@ -1,0 +1,31 @@
+body{
+    box-sizing: border-box;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(117, 126, 118);
+}
+
+
+.erase{
+    margin: 20px;   
+}
+
+.container{
+    box-sizing: border-box;
+    display:flex;
+    flex-wrap: wrap;
+    background-color: rgb(145, 137, 185);
+    margin:0px;
+    flex:1 1 0%;
+}
+
+.rectangle{
+    background: #eaebee;
+    /* border:  1px solid rgb(175, 167, 167);  */
+    flex:1 1 0%;
+}
+
+.passed{
+    background: black;
+}
